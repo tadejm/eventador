@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/209214662535456?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"bdc10374374c3fdc71a7b202aaef9d7695036130"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '916817'
+      x-fb-debug:
+      - FVm+cdtr/XRevNos0+JNnhiFNDXWti6Kaf2hrY5mPx0=
+      date:
+      - Thu, 22 Aug 2013 17:10:37 GMT
+      connection:
+      - close
+      content-length:
+      - '561'
+    body:
+      encoding: UTF-8
+      string: '{"id":"209214662535456","owner":{"category":"Transportation","category_list":[{"id":"163431627040738","name":"Boat
+        Service"}],"name":"Re\u010dni transport Ladjica","id":"1401826506698650"},"name":"Tralala","description":"Hopsasas","start_time":"2013-08-23","is_date_only":true,"location":"Re\u010dni
+        transport Ladjica","venue":{"latitude":46.042627666252,"longitude":14.506661271181,"city":"Ljubljana","state":"","country":"Slovenia","id":"1401826506698650","street":"Trnovski
+        pristan 8","zip":"1000"},"privacy":"OPEN","updated_time":"2013-08-19T18:31:51+0000"}'
+    http_version: 
+  recorded_at: Thu, 22 Aug 2013 17:10:37 GMT
+recorded_with: VCR 2.5.0

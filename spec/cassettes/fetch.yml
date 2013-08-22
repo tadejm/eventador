@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/Ladjica/events?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"d7c108ae1021dffd9a4721d54d2c99d8e7cc79b4"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '916817'
+      x-fb-debug:
+      - t+tAZSBCZCxP3OrW+RcyGzH/SmrEDTKo4uxLt8y/HKY=
+      date:
+      - Thu, 22 Aug 2013 17:10:33 GMT
+      connection:
+      - close
+      content-length:
+      - '660'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"name":"Tralala","start_time":"2013-08-23","location":"Re\u010dni
+        transport Ladjica","id":"209214662535456"},{"name":"Test","start_time":"2013-08-21T19:00:00+0200","timezone":"Europe\/Ljubljana","location":"Re\u010dni
+        transport Ladjica","id":"500370866714288"}],"paging":{"previous":"https:\/\/graph.facebook.com\/1401826506698650\/events?access_token=186380458197207|AsLPUwNdobrdrpmuG_JUG2ZsM54&limit=5000&since=1377216000&__paging_token=209214662535456&__previous=1","next":"https:\/\/graph.facebook.com\/1401826506698650\/events?access_token=186380458197207|AsLPUwNdobrdrpmuG_JUG2ZsM54&limit=5000&until=1377104400&__paging_token=500370866714288"}}'
+    http_version: 
+  recorded_at: Thu, 22 Aug 2013 17:10:33 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/209214662535456?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"bdc10374374c3fdc71a7b202aaef9d7695036130"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '916817'
+      x-fb-debug:
+      - cKYvRV2FPx0XP+6a7rFjc7ba5bvPcVFLj2HkmNLqlNI=
+      date:
+      - Thu, 22 Aug 2013 17:10:34 GMT
+      connection:
+      - close
+      content-length:
+      - '561'
+    body:
+      encoding: UTF-8
+      string: '{"id":"209214662535456","owner":{"category":"Transportation","category_list":[{"id":"163431627040738","name":"Boat
+        Service"}],"name":"Re\u010dni transport Ladjica","id":"1401826506698650"},"name":"Tralala","description":"Hopsasas","start_time":"2013-08-23","is_date_only":true,"location":"Re\u010dni
+        transport Ladjica","venue":{"latitude":46.042627666252,"longitude":14.506661271181,"city":"Ljubljana","state":"","country":"Slovenia","id":"1401826506698650","street":"Trnovski
+        pristan 8","zip":"1000"},"privacy":"OPEN","updated_time":"2013-08-19T18:31:51+0000"}'
+    http_version: 
+  recorded_at: Thu, 22 Aug 2013 17:10:34 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/500370866714288?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"9d75f0ca5bfb0b34da731614541940563b3ffe05"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '916817'
+      x-fb-debug:
+      - PyNec7xtUgqrVBxzbQZgRObJDNy2zkgMnfb9A2YVurs=
+      date:
+      - Thu, 22 Aug 2013 17:10:35 GMT
+      connection:
+      - close
+      content-length:
+      - '605'
+    body:
+      encoding: UTF-8
+      string: '{"id":"500370866714288","owner":{"category":"Transportation","category_list":[{"id":"163431627040738","name":"Boat
+        Service"}],"name":"Re\u010dni transport Ladjica","id":"1401826506698650"},"name":"Test","description":"very
+        much","start_time":"2013-08-21T19:00:00+0200","timezone":"Europe\/Ljubljana","is_date_only":false,"location":"Re\u010dni
+        transport Ladjica","venue":{"latitude":46.042627666252,"longitude":14.506661271181,"city":"Ljubljana","state":"","country":"Slovenia","id":"1401826506698650","street":"Trnovski
+        pristan 8","zip":"1000"},"privacy":"OPEN","updated_time":"2013-08-22T15:08:37+0000"}'
+    http_version: 
+  recorded_at: Thu, 22 Aug 2013 17:10:35 GMT
+recorded_with: VCR 2.5.0

@@ -27,11 +27,11 @@ http_interactions:
       pragma:
       - no-cache
       x-fb-rev:
-      - '916172'
+      - '916817'
       x-fb-debug:
-      - H2kYS3fkGsapdnIw6MLPD7hHfKZX87htmZkUUtikV4c=
+      - MQ5JLOefc9wC6Q+6kCzgi9QfUI28V0vpXuBpIhMM/xY=
       date:
-      - Thu, 22 Aug 2013 15:33:27 GMT
+      - Thu, 22 Aug 2013 17:10:36 GMT
       connection:
       - close
       content-length:
@@ -42,5 +42,5 @@ http_interactions:
         transport Ladjica","id":"209214662535456"},{"name":"Test","start_time":"2013-08-21T19:00:00+0200","timezone":"Europe\/Ljubljana","location":"Re\u010dni
         transport Ladjica","id":"500370866714288"}],"paging":{"previous":"https:\/\/graph.facebook.com\/1401826506698650\/events?access_token=186380458197207|AsLPUwNdobrdrpmuG_JUG2ZsM54&limit=5000&since=1377216000&__paging_token=209214662535456&__previous=1","next":"https:\/\/graph.facebook.com\/1401826506698650\/events?access_token=186380458197207|AsLPUwNdobrdrpmuG_JUG2ZsM54&limit=5000&until=1377104400&__paging_token=500370866714288"}}'
     http_version: 
-  recorded_at: Thu, 22 Aug 2013 15:33:27 GMT
+  recorded_at: Thu, 22 Aug 2013 17:10:36 GMT
 recorded_with: VCR 2.5.0
