@@ -20,7 +20,7 @@ module Eventador
     it "returns its time" do
       event = Event.new "start_time" => "2013-08-21T19:00:00+0200",
         "is_date_only" => false
-      expect(event.time).to eq(Time.new(2013, 8, 21, 19))
+      expect(event.time).to eq(Time.utc(2013, 8, 21, 17))
     end
 
     it "returns nil when event has no time" do

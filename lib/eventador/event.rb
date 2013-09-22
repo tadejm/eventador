@@ -20,7 +20,7 @@ module Eventador
 
     def time
       return unless has_time?
-      Time.parse(attributes["start_time"])
+      Time.parse(attributes["start_time"]).utc
     end
 
     def has_time?

@@ -23,7 +23,7 @@ describe Eventador do
     end
 
     it "returns its time" do
-      expect(event.time).to eq(Time.new(2013, 9, 22, 21, 55))
+      expect(event.time).to eq(Time.utc(2013, 9, 22, 19, 55))
     end
   end
 
