@@ -1,0 +1,133 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://graph.facebook.com/Ladjica/events?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"4ebe41607880c17982d2834f0eb51cec4c5937fb"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '943537'
+      x-fb-debug:
+      - Eem+p0nq2xNX5HfX3KwVyXnt4JR1X3KRdzVIT/1T0Zs=
+      date:
+      - Sun, 22 Sep 2013 19:53:56 GMT
+      connection:
+      - close
+      content-length:
+      - '698'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"name":"Open party","start_time":"2013-09-22T20:55:00+0100","timezone":"Europe\/London","location":"Ladjica","id":"218224228341411"},{"name":"Open
+        party","start_time":"2013-09-22T20:55:00+0100","timezone":"Europe\/London","location":"Ladjica","id":"170346546488079"}],"paging":{"previous":"https:\/\/graph.facebook.com\/1401826506698650\/events?access_token=186380458197207|AsLPUwNdobrdrpmuG_JUG2ZsM54&limit=5000&since=1379879700&__paging_token=218224228341411,170346546488079&__previous=1","next":"https:\/\/graph.facebook.com\/1401826506698650\/events?access_token=186380458197207|AsLPUwNdobrdrpmuG_JUG2ZsM54&limit=5000&until=1379879700&__paging_token=218224228341411,170346546488079"}}'
+    http_version: 
+  recorded_at: Sun, 22 Sep 2013 19:53:56 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/218224228341411?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"304fe8710771c0a2333e7c99776d5ddfadec0505"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '943537'
+      x-fb-debug:
+      - bnnDlTLtGxfXRiLx04koHpcO+pnkhAFOiupT++LtaZg=
+      date:
+      - Sun, 22 Sep 2013 19:53:56 GMT
+      connection:
+      - close
+      content-length:
+      - '561'
+    body:
+      encoding: UTF-8
+      string: '{"id":"218224228341411","owner":{"category":"Transportation","category_list":[{"id":"163431627040738","name":"Boat
+        Service"}],"name":"Ladjica","id":"1401826506698650"},"name":"Open party","description":"Opening
+        party ","start_time":"2013-09-22T20:55:00+0100","timezone":"Europe\/London","is_date_only":false,"location":"Ladjica","venue":{"latitude":46.050167613627,"longitude":14.50628715912,"city":"Ljubljana","state":"","country":"Slovenia","id":"1401826506698650","street":"Ribji
+        trg","zip":"1000"},"privacy":"OPEN","updated_time":"2013-09-22T19:53:10+0000"}'
+    http_version: 
+  recorded_at: Sun, 22 Sep 2013 19:53:56 GMT
+- request:
+    method: get
+    uri: https://graph.facebook.com/170346546488079?access_token=186380458197207%7CAsLPUwNdobrdrpmuG_JUG2ZsM54
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - private, no-cache, no-store, must-revalidate
+      content-type:
+      - application/json; charset=UTF-8
+      etag:
+      - '"5b710220a379e55b27f63e9ce5220bdcf8302c79"'
+      expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      pragma:
+      - no-cache
+      x-fb-rev:
+      - '943537'
+      x-fb-debug:
+      - d5SGfv8o8P4/QpfkgrUrCmDe04YJQEOraRXTg1ajgD8=
+      date:
+      - Sun, 22 Sep 2013 19:53:56 GMT
+      connection:
+      - close
+      content-length:
+      - '568'
+    body:
+      encoding: UTF-8
+      string: '{"id":"170346546488079","owner":{"category":"Transportation","category_list":[{"id":"163431627040738","name":"Boat
+        Service"}],"name":"Ladjica","id":"1401826506698650"},"name":"Open party","description":"Opening
+        party Ladjica","start_time":"2013-09-22T20:55:00+0100","timezone":"Europe\/London","is_date_only":false,"location":"Ladjica","venue":{"latitude":46.050167613627,"longitude":14.50628715912,"city":"Ljubljana","state":"","country":"Slovenia","id":"1401826506698650","street":"Ribji
+        trg","zip":"1000"},"privacy":"OPEN","updated_time":"2013-09-22T19:53:05+0000"}'
+    http_version: 
+  recorded_at: Sun, 22 Sep 2013 19:53:56 GMT
+recorded_with: VCR 2.5.0

@@ -1,10 +1,4 @@
-require "vcr"
-
-VCR.configure do |c|
-  c.cassette_library_dir = "spec/cassettes"
-  c.hook_into :faraday
-end
-
+require "spec_helper"
 require_relative "../../lib/eventador/request"
 
 module Eventador
